@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+
+body {
+    display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.container {
+  width:50vw;
+  height:80vh;
+  display: flex;
+}
+
+.left-side {
+    height:100%;
+    width: 30%;
+    background-color: white;
+
+}
+
+.image {
+background: url("Imgs/hrustall-K3QvdUkcQp4-unsplash.jpg");
+background-size: cover;
+height: 100%;
+width: 70%;
+border-radius: 0 10% 10% 0;
+}
+
+h1, h3 {
+    margin: 15px;
+}
